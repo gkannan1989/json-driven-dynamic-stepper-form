@@ -46,14 +46,16 @@ ATOMIC design
 
 ### Sample JSON - you can play with this path src/store/context.js
 
+```
 "step" - determine each step form - you can add N number of forms
 "type" - its a key for driving / picking correct Atom (eg: type: "text", type: "select" and type: "checkbox")
+```
 
-Please note: as of now we have only three Atom (InputCheckbox, InputSelect and InputBox) which can be configured dynamically. 
+#### Please note: as of now we have only three Atom (InputCheckbox, InputSelect and InputBox) which can be configured dynamically. 
 
 Sample JSON
 ```
-	{
+{
   "step1": [
     {
       "id": 1,
