@@ -7,6 +7,10 @@ Step 1: npm install
 
 Step 2: npm run start
 
+## Demo 
+
+<a href="https://www.loom.com/share/b3dbdcf6077f4acf9326c7fd477f824e"> <p>Step by Step Form - Watch Video</p> <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/b3dbdcf6077f4acf9326c7fd477f824e-with-play.gif"> </a>
+
 ##  Tech Stack
 1. React
 2. React hooks (useState, useReducer, memo, useContext and useEffect) 
