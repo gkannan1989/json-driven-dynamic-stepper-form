@@ -9,7 +9,7 @@ Step 2: npm run start
 
 ##  Tech Stack
 1. React
-2. React hooks (useState, useReducer, useMemo, useContext and useEffect) 
+2. React hooks (useState, useReducer, memo, useContext and useEffect) 
 4. Custom hooks(useEffect) for usePersistedContext 
 5. Lazy - We are using to load the component when ever needed asynchronously 
 
