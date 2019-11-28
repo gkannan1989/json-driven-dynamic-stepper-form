@@ -52,42 +52,44 @@ ATOMIC design
 Please note: as of now we have only three Atom (InputCheckbox, InputSelect and InputBox) which can be configured dynamically. 
 
 Sample JSON
-{
-    "step1":[
-       {
-          "id":1,
-          "type":"select",
-          "label":"Country", 
-          "options":[
-             "USA",
-             "Germany",
-             "India"
-          ],
-          "optionValue":"USA"
-       },
-       {},
-       {}
-    ],
-    "step2":[
-       {
-          "id":1,
-          "type":"checkbox",
-          "name":"Number",
-          "label":"Place 1",
-          "isChecked":false
-       },
-       {},
-       {}
-    ],
-    "step3":[
-       {
-          "id":1,
-          "type":"text",
-          "label":"First Name",
-          "name":"firstName",
-          "value":""
-       },
-       {}, 
-       {}
-    ]
- }
+```
+	{
+  "step1": [
+    {
+      "id": 1,
+      "type": "select",
+      "label": "Country",
+      "options": [
+        "USA",
+        "Germany",
+        "India"
+      ],
+      "optionValue": "USA"
+    },
+    {},
+    {}
+  ],
+  "step2": [
+    {
+      "id": 1,
+      "type": "checkbox",
+      "name": "Number",
+      "label": "Place 1",
+      "isChecked": false
+    },
+    {},
+    {}
+  ],
+  "step3": [
+    {
+      "id": 1,
+      "type": "text",
+      "label": "First Name",
+      "name": "firstName",
+      "value": ""
+    },
+    {},
+    {}
+  ]
+}
+```
