@@ -1,6 +1,6 @@
  # Dynamic JSON driven stepper form
 
-This stepper form is fully driven by the JSON configured on (src/store/context.js), both number of steps and form elements can be configured which will ensure zero dependency and 100% reusability. Adding to that its implemented with React latest hooks :)
+This stepper form is fully driven by the JSON configured on (src/store/context.js), both number of steps and form elements can be configurable which will ensure zero dependency and 100% reusability. Adding to that its implemented with React latest hooks :)
 
 ## Install     
 Step 1: npm install
