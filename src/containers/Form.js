@@ -8,7 +8,7 @@ const ElmFactory = lazy(() => import('../components/ElmFactory'));
  * Function represents the Form containner
  * @memberOf src.containers.Form
  * @function Form
- * @description It renders the dynamic form along with next button
+ * @description It renders the dynamic form along with buttons
  * @return {jsx} - jsx containner to show 
  * @example
  *    <Form />
