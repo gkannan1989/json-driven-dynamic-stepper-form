@@ -24,33 +24,41 @@ ATOMIC design
 
 ## Folder Structure 
 
-### Atom - Atom level components deep level core components
+### Atom 
+##### Atom level components deep level core components
     src/components/Button
     src/components/InputCheckBox
     src/components/InputText
     src/components/SelectBox
 
-### Element Factory (JSON driven dynamic Atom dispatcher) - Core for the dynamic elements
+### Element Factory (JSON driven dynamic Atom dispatcher) 
+##### Core for the dynamic elements
     src/components/ElmFactory.js 
 
-### Molecules / Template  - Container that holds the form
+### Molecules / Template  
+##### Container that holds the form
     src/containers/Form.js
 
-### Pages - Application core
+### Pages 
+##### Application core
     src/index.js
 
-### Store - Mintain reducer, context(state form & form elements JSON) and persistance of the application
+### Store
+##### Mintain reducer, context(state form & form elements JSON) and persistance of the application
     src/store/context.js
     src/store/reducer.js
     src/store/usePersist.js
     
-### CSS - Basic level of CSS
+### CSS 
+##### Basic level of CSS
     src/css/index.css
 
-### Constants - Strings all over the application will be here.
+### Constants
+##### Strings all over the application will be here.
     src/constants/constants.js
     
-### Utils / Helpers - Utility and common helper methods
+### Utils / Helpers
+##### Utility and common helper methods
     src/utils/Helpers.js
 
 ### Sample JSON - you can play with this path src/store/context.js
