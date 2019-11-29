@@ -1,6 +1,6 @@
  # Dynamic JSON driven stepper form
 
-This stepper form is fully driven by the JSON configured on (src/store/context.js), both number of steps and form elements can be configured which will ensure zero dependency and 100% reusability.
+This stepper form is fully driven by the JSON configured on (src/store/context.js), both number of steps and form elements can be configurable which will ensure zero dependency and 100% reusability. Adding to that its implemented with React latest hooks :)
 
 ## Install     
 Step 1: npm install
@@ -14,6 +14,10 @@ Step 2: npm run start
 5. Lazy - We are using to load the component when ever needed asynchronously 
 
 Please note: This release, we have not much focused on UI part, validation and test cases and focused only on skeleton.
+
+## Demo 
+
+<a href="https://www.loom.com/share/b3dbdcf6077f4acf9326c7fd477f824e"> <p>Step by Step Form - Watch Video</p> <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/b3dbdcf6077f4acf9326c7fd477f824e-with-play.gif"> </a>
 
 ## Principles
 ATOMIC design
@@ -96,3 +100,6 @@ Sample JSON
   ]
 }
 ```
+
+
+
