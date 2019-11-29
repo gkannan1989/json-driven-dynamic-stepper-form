@@ -1,6 +1,7 @@
 import React, { memo, lazy, Suspense, useContext, useState } from 'react';
 import Store from '../store/context'; 
-import { Constants as C } from '../constants/constants'
+import { Constants as C } from '../constants/constants';
+import Helpers from '../../src/utils/Helpers';
 const Button = lazy(() => import('../components/Button/Button')); 
 const ElmFactory = lazy(() => import('../components/ElmFactory'));   
 
@@ -47,20 +48,7 @@ const Form = memo(() => {
 
     /** when tapping finish button below function will render state tree*/
     const RenderStateTree = () => {
-       let response = [];
-       for(const step of stateKeys) {
-          state[step].map((data, idx) => {  
-            const res = {
-              checkbox : `${data.label} => ${data.isChecked}`,
-              text : `${data.label} => ${data.value}`,
-              select: `${data.label} => ${data.optionValue}`
-            }
-            return response.push(<div key={step + idx}>
-                    {JSON.stringify(res[data.type])}
-                </div>)
-          })
-       }
-       return response;
+      return Helpers.getStateTree(state, stateKeys)
     }
 
     return ( 

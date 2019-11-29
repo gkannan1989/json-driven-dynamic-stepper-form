@@ -13,7 +13,7 @@ const SelectBox = ({ id, name, label, options, optionValue, onChange, isInvalid 
 
 SelectBox.propTypes = {
   id: PropTypes.number,
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string,
   label: PropTypes.string,
   options: PropTypes.arrayOf(PropTypes.string),
   optionValue: PropTypes.string,
